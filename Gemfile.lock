@@ -275,7 +275,6 @@ DEPENDENCIES
   github-pages
   jekyll-seo-tag
   jekyll-sitemap
-  jekyll-theme-minimal
 
 BUNDLED WITH
    2.5.21
