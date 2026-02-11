@@ -1,0 +1,146 @@
+body{
+    background-color: #1D3461;
+}
+.texte{
+    font-family: Righteous-Regular;
+    color: #A6E1FA;
+}
+.heading{
+    font-family: rimouski sb;
+}
+/* navigation */
+nav{
+    backdrop-filter: blur(50px);
+    position: fixed;
+    margin: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    top: 0;
+    width: 95%;
+    font-size: larger;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.pages{
+    text-align: left;
+}
+.logo{
+    text-align: center;
+}
+.icons{
+    text-align: right;
+}
+.current{
+    color: #6290C8;
+}
+.active{
+    color: #829CBC;
+}
+/* end of navigation */
+/* index */
+/*jour restant*/
+.central-title{
+    font-size: 200%;
+    border-radius: 10px;
+    backdrop-filter: blur(50px);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6290C8;
+    padding: 10px;
+    text-align: center;
+    margin: 400px 400px 0 400px;
+    color: #6290C8;
+}
+.jour-restant{
+    padding: 10px;
+    margin-top: 300px;
+    background-color: #1F487E;
+}
+.jour-restant-heading{
+    font-size: 60px;
+    text-align: center;
+    size: 80px;
+}
+.jour-restant-image img{
+    border: solid #2A9D8F 5px;
+    max-width: 100%;                 /* Empêche l'image de déborder */
+    height: 500px;                    /* Garde les proportions */
+    display: block;                  /* Centre l'image à l'intérieur de sa colonne */
+    margin: 0 auto;
+}
+.best-seller-collection{
+    width: 50%;
+}
+.jour-restant-content{
+    display: grid;                   /* Active Grid */
+    grid-template-columns: 1fr 1fr; /* Deux colonnes de largeur égale */
+    justify-content: center;         /* Centre horizontalement */
+    align-items: center;             /* Centre verticalement */
+    height: 100vh;                   /* Ajuste à la hauteur totale de la vue */
+    gap: 20px;                       /* Espace entre les colonnes */
+}
+/* end of jour restant */
+/* end of index */
+/* footer */
+footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.newsletter{
+    background-color: #1F487E;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+::placeholder{
+    background-color: #376996;
+    color: #829CBC;
+}
+/* end of footer */
+/* page jour restant */
+.jour-restant-page{
+    margin: 100px 100px 0 100px;
+    text-align: center;
+}
+.recrutement{
+    background-color: #376996;
+}
+/* end of jour restant */
+/*dernier ami inscription */
+.dernier-ami-inscription{
+    margin: 100px 100px 0 100px;
+}
+.dernier-ami-inscription-heading{
+    text-align: center;
+}
+.dernier-ami-inscription-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.inscription-button{
+    font-size: 200%;
+    border-radius: 10px;
+    backdrop-filter: blur(50px);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6290C8;
+    padding: 10px;
+    text-align: center;
+    color: #6290C8;
+}
+.inscription-fin{
+    margin: 250px 100px 250px 100px;
+    text-align: center;
+}
+/* end of dernier ami inscription */
+/* about */
+.explication{
+    margin: 100px 100px 0 100px;
+}
+.explication-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* end of about */
